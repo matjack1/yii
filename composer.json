@@ -1,5 +1,5 @@
 {
-	"name": "yiisoft/yii",
+	"name": "matjack1/yii",
 	"description": "Yii Web Programming Framework",
 	"keywords": ["yii", "framework"],
 	"homepage": "http://www.yiiframework.com/",
@@ -55,7 +55,7 @@
 			"email": "jefftulsa@gmail.com",
 			"role": "Documentation and marketing"
 		}
-		
+
 	],
 	"support": {
 		"issues": "https://github.com/yiisoft/yii/issues?state=open",
@@ -75,5 +75,8 @@
 			"framework/YiiBase.php",
 			"framework/yii.php"
 		]
+	},
+	"replace" : {
+		"yiisoft/yii": "*"
 	}
 }
